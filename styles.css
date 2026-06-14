@@ -7,6 +7,40 @@ body {
 }
 
 h1 {
-    background: black;
+    background: white;
     background-clip: text;
+    font-size: 20px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: black;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 12px;
+}
+
+#toolbar input {
+    width: 100%;
+}
+
+#toolbar button {
+    background-color: blue;
+    border: none;
+    border: 4px;
+    color: white;
+    padding: 2px;
 }
